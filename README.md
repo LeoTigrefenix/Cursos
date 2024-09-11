@@ -5,5 +5,5 @@
 * Inicio do Curso de ChatGPT
 * Inclui prompts de comando para melhor uso do ChatGPT
 
-## V2 promptEngineering melhorias
-* Melhorias no estudo de  prompt Engineering
+## V2-Começo do estudo sobre rede neurais
+* Estudo em redes neurais, treinamento da rede, deep learning , arquitetura transformers.
