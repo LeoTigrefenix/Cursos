@@ -2,8 +2,23 @@
 **Documentação dos cursos que eu fiz**
 
 ## V1 promptEngineering
+*promptEngineering*
 * Inicio do Curso de ChatGPT
 * Inclui prompts de comando para melhor uso do ChatGPT
 
-## V2-Começo do estudo sobre rede neurais
+## V2 melhorias no promptEngineering
+* Melhorias no arquivo `PromptEnfineeting_README.md`
+
+## V3-Começo do estudo sobre rede neurais
+*IA_teste_basico_python*
 * Estudo em redes neurais, treinamento da rede, deep learning , arquitetura transformers.
+
+
+## V4-Códigos .py de análise de texto, palavra, matriz. Funcionam
+*IA_teste_basico_python/analise_de_texto*
+* analisar textos de entrada no prompt e tomar ações. Podem ser matrizes, frases, palavras. Temos vários casos:
+    - `auxilio_de_vendas.py`
+    - `boas_praticas.py`
+    - `inadimplencia.py`
+    - `prompt_adequado.py`
+    - `sentimento_texto.py`
