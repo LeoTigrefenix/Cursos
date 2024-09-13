@@ -22,3 +22,5 @@
     - `inadimplencia.py`
     - `prompt_adequado.py`
     - `sentimento_texto.py`
+
+## resolvendo bug na branch main
