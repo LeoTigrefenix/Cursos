@@ -27,7 +27,10 @@
 ## resolvendo bug na branch main
 
 ## Estabilizou
+
 ## V5- preciso melhorar as branch -  DataSciencester day one: V01 WIP
 *DataScience/DataSciencester_Day_1*
 *  `redeDeConexoes.py` iniciado para fazer teste dos códigosdo dia 1 no capítulo de introdução. 
 * explicação em `readme_datascience.md`
+
+## Merge da branch cursos para a branch main
