@@ -12,4 +12,6 @@
 ## TÓPICOS DO LIVRO (BRANCH)
     * Acredito que para me facilitar a vida, seja inteligênte de minha parte separar os temas em branchs e em pastas dentro da pasta _DataScience_. 
 
-### 
+### DataSciencester day one
+*DataScience/DataSciencester_Day_1*
+* `redeDeConexoes.py` traz a abordagem do dia 1 sobre a conexão entre os cientístas de dados da empresa
