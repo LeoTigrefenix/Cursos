@@ -24,3 +24,5 @@
     - `sentimento_texto.py`
 
 ## resolvendo bug na branch main
+## V2-Começo do estudo sobre rede neurais
+* Estudo em redes neurais, treinamento da rede, deep learning , arquitetura transformers.
