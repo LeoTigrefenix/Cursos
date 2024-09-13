@@ -6,7 +6,8 @@
 * Inicio do Curso de ChatGPT
 * Inclui prompts de comando para melhor uso do ChatGPT
 
-## V2 melhorias no promptEngineering
+## V2 melhorias no promptEngineering e Começo do estudo sobre rede neurais
+* Estudo em redes neurais, treinamento da rede, deep learning , arquitetura transformers.
 * Melhorias no arquivo `PromptEnfineeting_README.md`
 
 ## V3-Começo do estudo sobre rede neurais
@@ -24,5 +25,5 @@
     - `sentimento_texto.py`
 
 ## resolvendo bug na branch main
-## V2-Começo do estudo sobre rede neurais
-* Estudo em redes neurais, treinamento da rede, deep learning , arquitetura transformers.
+
+## Estabilizou
