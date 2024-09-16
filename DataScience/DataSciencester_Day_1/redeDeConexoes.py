@@ -32,6 +32,10 @@ for i,j in lista_amizades:
     lista_nomes[i]["amigos"].append({"id":lista_nomes[j]["id"], "nome":lista_nomes[j]["nome"]}) # o ID j no vetor de amigos de i
     lista_nomes[j]["amigos"].append({"id":lista_nomes[i]["id"], "nome":lista_nomes[i]["nome"]}) # o ID i no vetor de amigos de j
 
+
+#o fato de ter montado na linha 31 um sistema sem a lista de amigos em casa amigo eu preciso pegar o id 
+##da pessoa e ai ir na lista ver os akigos dela 
+
 #printar a lista montada com os nomes e id de amigos
 print("Pos lista de amizades temos:")
 for obj in lista_nomes:
@@ -44,11 +48,13 @@ def numero_de_amigos(entrada):
 
 ##contar conexões
 total_conexoes = sum(numero_de_amigos(pessoa) for pessoa in lista_nomes)
+#LOG
 print(f" total_conexoes: {total_conexoes}")
 
 
 #média do número de conexões
 media_conexoes = total_conexoes/len(lista_nomes)
+#LOG
 print(f" media_conexoes: {media_conexoes}")
 
 
@@ -56,10 +62,31 @@ print(f" media_conexoes: {media_conexoes}")
 conexao_por_pessoa = [(pessoa["id"], numero_de_amigos(pessoa)) for pessoa in lista_nomes] # da para acessar com conexao_por_pessoa[0] e o mais interno com conexao_por_pessoa[0][1]
 
 conexao_por_pessoa_detalhado = [{"nome":pessoa["nome"],"conexoes": numero_de_amigos(pessoa)} for pessoa in lista_nomes]
-
+#LOG
 print(conexao_por_pessoa)
 print("  ")
 print(conexao_por_pessoa_detalhado)
+
+
+def ada(listaAmigos)
+   return [ lista_nomes[nome["id"]]["amigos"] for nome in listaAmigos]
+
+# amigo de amigo , vai devoltar uma lista dos amigos dos amigos de cada id
+def amigo_de_amigo(listaNomes)
+  return [(pessoa["id"],[lista_nomes[id]  for id in (pessoa["amigos"]) for pessoa in lista_nomes
+  #talvez funcione 
+
+#amigo de amigo sem repetir a pessoa 
+
+listaAmigosNaoConheco
+#amigo de amigo sem repetir eu e amigos que tenho 
+ 
+ listaAmigosNaoConheco = [(pessoa["id"],idsAmigos)]
+ for pessoa in lista_nomes 
+ for amigosV in pessoa["amigos"]
+ for idsAmigos in amigosV["id"] 
+ if idsAmigos != pessoa["amigos"]["id"] and idsAmigos != amigosV["id"]
+
 
 
 # def amigo_do_amigo(usuario):
@@ -67,3 +94,14 @@ print(conexao_por_pessoa_detalhado)
 #     return[ada["id"]
 #             for amigo in usuario["amigos"]
 #             for ada in amigo["amigos"]]
+
+
+lista_interesses = [ 
+    (0,"Hadoop"),(0,"Big data") (0,"Hbase"), (0, "java"),
+    (0,"Spark"), (0,"Storm"), (0,"casandra"), (1,"postgres"),
+    (2,"python"),(2,"scipy"), (3,"statistics"), (3,"regression"),
+    (4, "machine learning"), (4,"regression"), (5,"java"), (5,"R"),
+    (6, "theory")
+
+
+]
