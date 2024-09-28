@@ -15,3 +15,10 @@
 ### DataSciencester day one
 *DataScience/DataSciencester_Day_1*
 * `redeDeConexoes.py` traz a abordagem do dia 1 sobre a conexão entre os cientístas de dados da empresa
+
+### DataSciencester day one - lista de amigos
+*DataScience/DataSciencester_Day_1*
+* `redeDeConexoes.py` faz a lista de amigos de amigos, tem três opções, entretanto não está com pythonic:
+    amigo de amigo 
+    amigos de amigos sem vc
+    amigo de amigo sem repetir as pessoas 
