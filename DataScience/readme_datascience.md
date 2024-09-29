@@ -22,3 +22,11 @@
     amigo de amigo 
     amigos de amigos sem vc
     amigo de amigo sem repetir as pessoas 
+
+### DataSciencester day one - lista de amigos pythonic
+*DataScience/DataSciencester_Day_1*
+* `redeDeConexoes.py` faz a lista de amigos de amigos, tem três opções:
+    amigo de amigo 
+    amigos de amigos sem vc
+    quem vc não conhece, mas repetidas vezes se for o caso
+    quem vc não conhece sem repetir 

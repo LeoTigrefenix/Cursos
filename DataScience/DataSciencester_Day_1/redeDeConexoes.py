@@ -83,8 +83,6 @@ def amigo_de_amigo(usuario):
 
     return {"id":usuario["id"],"amigos_de_amigos":vetorvazio}
 
-tentativa = {'id': 0, 'nome': 'Zero', "amigos":[{'id': 1, 'nome': 'Um'},{'id': 2, 'nome': 'Dois'}]}
-print(f"Teste primeiro {amigo_de_amigo(tentativa)}")
 # ==============================================================================================
 # ==============================================================================================
 # amigos de amigos sem vc
@@ -99,11 +97,12 @@ def amigo_de_amigo_sem_vc(usuario):
 
  
   
-conexoes = []
-for pessoa in lista_nomes:
-    conexoes.append(amigo_de_amigo_sem_vc(pessoa)) 
+# conexoes = []
+# for pessoa in lista_nomes:
+#     conexoes.append(amigo_de_amigo_sem_vc(pessoa)) 
     #vai repetir caso eu conheça 1 e 2 e eles se conheçam vai aparecer 1,2. se ambos conhecerem algum esse alguem aparece 2 vezes
 # print(conexoes)
+
 # ==============================================================================================
 # ==============================================================================================
 # amigo de amigo sem repetir as pessoas 
@@ -121,6 +120,8 @@ for pessoa in lista_nomes:
     conexoesNrepete.append(amigo_de_amigo_sem_vc_sem_repetir(pessoa))
     #legal! aqui não repete mais as pessoas, entretanto temos o problema que se meu amigo conhece outro amigo ambos aparecem
 # print(conexoesNrepete)
+tentativa = {'id': 0, 'nome': 'Zero', "amigos":[{'id': 1, 'nome': 'Um'},{'id': 2, 'nome': 'Dois'}]}
+print(f"Teste primeirooooooooooo {amigo_de_amigo_sem_vc_sem_repetir(tentativa)}")
 # ==============================================================================================
 # ==============================================================================================
 # listaAmigosNaoConheco
@@ -144,10 +145,45 @@ for pessoa in lista_nomes:
 '''
 AGORA VEJAMOS UMA FORMA DE REFAZER ISSO SÓ QUE EM PYTHONIC 
 ''' 
-
+# ==============================================================================================
+# ==============================================================================================
+def pythonic_amigo_de_amigo(usuario):
+    return [x 
+            for amigos in usuario["amigos"] 
+            for x in lista_nomes[amigos["id"]]["amigos"]]
 
 # ==============================================================================================
 # ==============================================================================================
+def pythonic_amigo_de_amigo_sem_vc(usuario):
+    return [amigosDeAmigos
+            for amigos in usuario["amigos"]
+            for amigosDeAmigos in lista_nomes[amigos["id"]]["amigos"]
+            if amigosDeAmigos["id"] != usuario["id"]
+            ]
+
+# ==============================================================================================
+# ==============================================================================================
+def pythonic_amigo_de_amigo_os_desconhecidos(usuario):
+    amigosDeAmigos = set()
+    return [amigosDeAmigos
+            for amigos in usuario["amigos"]
+            for amigosDeAmigos in lista_nomes[amigos["id"]]["amigos"]
+            if amigosDeAmigos["id"] != usuario["id"] and
+            amigosDeAmigos not in usuario["amigos"]
+            ]
+
+# ==============================================================================================
+# ==============================================================================================
+def pythonic_desconhecidos_sem_repetir(usuario):
+    amigos_de_amigos = set()  # Usamos um set para evitar repetições
+    for amigos in usuario["amigos"]:
+        for amigosDeAmigos in lista_nomes[amigos["id"]]["amigos"]:
+            if amigosDeAmigos["id"] != usuario["id"] and amigosDeAmigos["id"] not in [a["id"] for a in usuario["amigos"]]:
+                amigos_de_amigos.add(amigosDeAmigos["id"])  # Adiciona apenas o ID para evitar repetição
+    return [{"id":a["id"],"nome":a["nome"]} for a in lista_nomes if a["id"] in amigos_de_amigos]
+
+tentativa = {'id': 0, 'nome': 'Zero', "amigos":[{'id': 1, 'nome': 'Um'},{'id': 2, 'nome': 'Dois'}]}
+print(f"Teste segundo ------- {pythonic_desconhecidos_sem_repetir(tentativa)}")
 
 # lista_interesses = [ 
 #     (0,"Hadoop"),(0,"Big data") (0,"Hbase"), (0, "java"),
