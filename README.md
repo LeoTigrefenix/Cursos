@@ -34,3 +34,6 @@
 * explicação em `readme_datascience.md`
 
 ## Merge da branch cursos para a branch main
+
+## criango a branch do Laboratório da UFABC 406
+* vou usar essa branch para salvar informações e aprendizados no lab 404 (not found kkkkkk) na verdade é o 406 hue hue 
