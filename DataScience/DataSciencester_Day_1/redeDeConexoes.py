@@ -185,6 +185,15 @@ def pythonic_desconhecidos_sem_repetir(usuario):
 tentativa = {'id': 0, 'nome': 'Zero', "amigos":[{'id': 1, 'nome': 'Um'},{'id': 2, 'nome': 'Dois'}]}
 print(f"Teste segundo ------- {pythonic_desconhecidos_sem_repetir(tentativa)}")
 
+
+
+# ==============================================================================================
+# ==============================================================================================
+# interesses comuns 
+# amigos ou interesses comuns 
+
+#TESTAR
+
 # lista_interesses = [ 
 #     (0,"Hadoop"),(0,"Big data") (0,"Hbase"), (0, "java"),
 #     (0,"Spark"), (0,"Storm"), (0,"casandra"), (1,"postgres"),
@@ -192,6 +201,14 @@ print(f"Teste segundo ------- {pythonic_desconhecidos_sem_repetir(tentativa)}")
 #     (4, "machine learning"), (4,"regression"), (5,"java"), (5,"R"),
 #     (6, "theory")
 # ]
+
+# interesses = {}
+# analisar quem tem o interesse em comum 
+# for x,y in lista_interesses
+#    for a,b in lista_interesses
+#        if a != x 
+#            if b == y
+#                interesses[a] = f "interesse {b} com {x}"
 
 # ==============================================================================================
 # ==============================================================================================
