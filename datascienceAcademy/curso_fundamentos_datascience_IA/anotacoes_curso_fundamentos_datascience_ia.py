@@ -420,3 +420,295 @@ Ferramentas de CI/CD: Jenkins, GitLab CI
 
 #=======================================================================================
 # Analytics Engineer
+
+"""
+Principais Responsabilidades do AnalyticsEngineerAs  principais  responsabilidades  de  umAnalytics    Engineer    incluem    projetarmodelos  de  dados,  coletar  informações,escrever código, manter a documentaçãode    dados,    comunicar    resultados    ecolaborar com os membros da equipe dedados.Um  Analytics  Engineer  conecta  as  ideias  e  estratégias  de  executivos  e  partes  interessadascom  os  números  e  avaliações  de  coletas  de  dados  e  estatísticas.  Esses  profissionaisgeralmente  trabalham  em  setores  de  gerenciamento  de  dados,  organização  e  análise  dedados ou departamentos de estratégia de negócios. O objetivo principal e as tarefas de umAnalytics  Engineer  visam  aumentar  a  comunicação  e  a  compreensão  entre  as  equipes  deinformações de dados e os executivos de operações comerciais
+"""
+"""
+Desenvolvimento  de  Pipelines  de  Dados:  Criar  e  gerenciar  pipelinespara a coleta e transformação de dados.Garantia de Qualidade de Dados: Assegurar a acurácia e a integridadedos dados.Otimização  de  Consultas  de  Dados:  Melhorar  o  desempenho  deconsultas para análises mais rápidas.Colaboração  com  Times  de  Data  Science  e  BI:  Trabalhar  em  conjuntocom  Cientistas  de  Dados  e  especialistas  em  BI  para  entender  suasnecessidades de dados.Data Science Academy leonardo.tancredi@optdriven.com.br 67b3468bcef6d4f4aa07201a
+"""
+##Desenvolva   Competências   em   Análise   deDadosAdquira  Habilidades  em  Ferramentas  de  BI  eVisualização de DadosData Science Academy leonardo.tancredi@optdriven.com.br 67b3468bcef6d4f4aa07201a
+#### SQL , Estatística , métodos quantitativos 
+
+##Adquira  Habilidades  em  Ferramentas  de  BI  eVisualização de DadosData Science Academy leonardo.tancredi@optdriven.com.br 67b3468bcef6d4f4aa07201a
+#### Tableau, PowerBI, Looker
+
+## Aprenda   Linguagens   de   Programação   eProcessamento de Dados
+#### Python , R, Rust 
+
+
+#=======================================================================================
+# RPA
+
+"""
+RPA é  aplicação  de  tecnologia,  regida  pela  lógica  denegócios  e  dados  estruturados,  visando  automatizar  osprocessos  de  negócios.  Usando  ferramentas  de RPA,  umaempresa pode configurar um software, ou um “robô”, paracapturar  e  interpretar  aplicativos  para  processar  umatransação,   manipular   dados,   disparar   respostas   e   secomunicar  com  outros  sistemas  digitais.  Os  cenários  deRPA  variam  de  algo  tão  simples  quanto  gerar  umaresposta  automática  a  um  e-mail  até  implantar  milharesde bots, cada um programado para automatizar tarefas emum sistema ERP
+"""
+
+
+#=======================================================================================
+# CIENTISTA DE DADOS PRECISA MANJAR 
+
+## distribuição de probabilidade
+## inferência estatística 
+## teste de hipótese
+### Erro Tipo I: Rejeitar a hipótese nula quando ela é verdadeira.
+### Erro Tipo II: Falhar em rejeitar a hipótese nula quando ela é falsa.
+## regressão
+
+
+#=======================================================================================
+# BIBLIOTECAS
+## Python
+"""
+Scikit-learn -> o feijão com arroz para ciência de dados, fornece modelos prontos 
+Numpy 
+Pandas
+
+Matplotlib -> gráfico genérico e dashboar
+
+Seborn -> gráficos estatísticos, ajuda a customizar 
+
+Plotly -> gráfico interativo 
+
+""" 
+## R 
+"""
+ggplot r
+Existem muitos pacotes especializados prontos
+Análise de série Temporais  =  Forecast tseries
+relatório em http básico = Shiny Apps 
+"""
+
+## SQL
+"""
+ramificações = HQL (Hive - usado no roopy ) e CQL (Cassandra - não relacional)
+
+SELECT FROM WHERE 
+SELECT FROM ORDER BY DESCE 
+
+SELECT DATE(data_venda) AS dia, SUM(valor)
+    FROM tb_vendas
+    WHERE data_venda BETWEEN '2024-01-01' AND '2025-01-01'
+    GROUP BY dia,
+"""
+
+#========================================================================================
+#========================================================================================
+# LOW CODE 
+## power BI
+## Tableau
+## Qlik Sense (análise de dados com IA)
+## básico , looker ( google data studio)
+
+
+# LOW CODE PARA MACHINE LEARNING 
+## DataRobot automação de tarefas de machine learning , ajuda a criar e validar modelos
+## H20.ai , boa ferramenta para experimentação, entender qual algoritmo vc deve usar no projeto.  Ajuda a automatizar caracterização, selecionar modelo, tuning, e implementação
+## KNIME plataforma de análise de dados e ciencia de dados, faz fluxo de trabalho de IA
+## RapidMiner , minerar os dados e validar dados
+## IBM Watson studio, integração com ferramentas da IBM 
+
+# PROCESSAMENTO DE PETABYTES PROCESSAR MUITOS DADOS
+## Apache Hadoop
+## Apache Spark (permite cluster)
+## Google bigQuery (usa SQL)
+## amazon redshit criar data warehouse 
+## SNOWFLAKE , pilha moderna de dados, traga os dados de qualquer formato 
+## DATABRICKS , É O APACHE SPARK em núvem 
+
+
+#========================================================================================
+#========================================================================================
+# DATALAKE
+## repositório centralizado. Armazena o dado bruto, tanto estruturado e não estruturado.
+## grandes volumes de dados brutos (formato nativo). Permite alta flexibilidade e escalabilidade.
+
+#========================================================================================
+#========================================================================================
+# DATA warehouses (DW)
+## recebe os dados já estruturados. Dados foram limpos e estruturados. 
+## usado para gerar relatórios
+
+#========================================================================================
+#========================================================================================
+# DATA Lakehouses
+## é a putaria, juntou o DW com Lake (Snowflake por exemplo)
+## busca flexibilidade de data lake , e permite gestão e desempenho dos dados 
+
+
+#========================================================================================
+#========================================================================================
+# Modern Data Stack
+## -> conjunto de ferramentas e soluções modernas que surgiram nos últimos anos.
+## são resultados dos aprendizados das ferramentas vistas acima, que fazem parte disso. 
+
+#========================================================================================
+#========================================================================================
+# CONJUNTO DE DATASETS PÚBLICOS
+"""
+Os datasets disponíveis aqui são públicos e podem ser usados livremente, mas certifique-se de checar os termos de uso.
+
+1- Scikit-Learn
+O Scikit-Learn é o principal framework Python para construção de modelos de aprendizado de máquina e contém várias APIs para diversos conjuntos de dados, desde dados simples, passando por dados reais, até a geração de dados para um propósito específico. Aqui estão os links para você:
+
+Toy Datasets
+
+Real World datasets
+
+Generated Datasets
+
+Other Datasets
+
+2- NLTK
+NLTK é um pacote Python específico para o trabalho de Processamento de Linguagem Natural. O NLTK também fornece conjuntos de dados de texto que você pode usar para seus projetos.
+
+Existem dezenas de conjuntos de dados de texto do NLTK disponíveis para uso. Consulte a lista completa aqui: NLTK Corpora
+
+3- Statsmodels
+Statsmodels é um pacote Python para modelagem estatística, mas o pacote também fornece vários conjuntos de dados que podem ser usados em seus projetos. Aqui a lista completa: Statsmodels Datasets
+
+4- Pydataset
+Pydataset é um pacote Python que fornece vários conjuntos de dados de código aberto. Os datasets são básicos, mas podem ser um bom ponto de partida para um projeto ou para um experimento com uma nova biblioteca de Machine Learning. Confira o pacote aqui: Pydataset
+
+5- Datasets
+Datasets é um pacote Python da HuggingFace criado especificamente para acessar e compartilhar conjuntos de dados. 
+
+O que é ótimo no pacote datasets é que, não importa o tamanho do conjunto de dados, você pode processar o conjunto de dados com leituras de cópia zero sem nenhuma restrição de memória, pois o pacote datasets usa o Apache Arrow em segundo plano.
+
+Você pode examinar o hub HuggingFace do pacote datasets para obter a lista completa com milhares de conjuntos de dados: Datasets
+"""
+
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# PROJETO DE DATA SCIENCE 
+# CICLO DE VIDA
+
+## DEFINIÇÃO DO PROBLEMA DE NEGÓCIO 
+"""
+Qual o problema 
+Qual o objetivo a ser realizado 
+Entender a viabilidade , 
+como será entregue, 
+qual cronograma disponível
+qual o ambiente de trabalho (online offline)
+se for ter modelo qual a acurácia esperada 
+hardware a ser utilizado
+"""
+
+## TRATAMENTO DOS DADOS 
+"""
+Coleta e preparação de dados
+de onde virão 
+definir fonte dos dados, modo de coleta, tratamento dos dados, formato final do dado tratado 
+""" 
+
+## EXPLORAÇÃO E ANÁLISE DE DADOS
+"""
+busca entender padrões nos dados, entender outliers 
+entender como os dados estão organizados
+levantar hipóteses
+criar visualização dos dados , gráficos, para ajudar a interpretar 
+"""
+
+## MODELOAGEM ESTATÍSTICA OU PREDITIVA 
+"""
+Decidir qual tipo de abordagem/ modelagem será utilizada
+
+"""
+
+## AVALIAÇÃO DO MODELO ESCOLHIDO
+"""
+Validar a análise do modelo, rever o modelo, rever os dados
+fica num ciclo de criação, teste , validação até resolver e alcançar o desejado 
+
+"""
+
+## IMPLEMENTAÇÃO E DEPLOY 
+"""
+implementar e subir em núvem ou servidor local 
+"""
+
+
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# IA x ML x DL x GenAI 
+
+#IA
+"Gerar tarefas cognitivas por poder computacional "
+
+# ML
+"Algoritimo que aprende por meio de padrõs nos dados. Ajuda a fazer previsões ou decisões sem ser explicitamente programado "
+
+## DL
+"DeepLearning , algoritimos baseados em redes neurais , com alta capacidade de aprendizado"
+
+# GenAi  
+" sub conjunto de deep learning. Modelos Generativos, se baseiam em dados para gerar novos dados "
+
+# Aprendizado por reforço 
+"interações com o ambiente o agente vai aprendendo  a tomar decisões. O angete recebe recompensa e punições e busca maximizar as recompensas."
+
+
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+
+# IA Estreita (modelos atuais)
+" são IA de tarefa específica. Compreendem a tarefa pré programada"
+
+"Modelos Generativos Multimodais (geram texti e imagem exemplo). Junção de vários modelos de IA Estreita "
+
+# IA Geral 
+" A ideia é que ela tenha capacidade gerais, algo mais próximo de uma inteligÇencia humana "
+" Ela vai aprender conteúdos não programados "
+
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# FRAMEWORKS 
+"Tensorflow"
+"PyTorch"
+"Scikit-learn"
+
+
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# TIPOS DE APRENDIZADO DE MÁQUINA 
+
+## Supervisionado 
+
+"|-> conjunto de dados rotulados. Tanto na entrada quanto na saída os dados são rotulados"
+" mapear entrada e saída e fazer previsões de novos dados "
+" regressão linear e classificadores"
+" definir os atributos e ter dados históricos"
+
+"""
+|-> REGRASSÃO
+PREVER VALOR CONTÍNUO 
+entender relação entre vairável dependente Y e uma ou mais variáveis independentes X
+prever clima por exemplo
+prever anomalia em transações bancárias
+prever preço de casas
+
+"""
+
+
+
+## NÃO Supervisionado 
+"|-> funciona por agrupamento de semelhança. O algoritmo recebe dado sem label e deve encontrar padrão entre eles"
+"-> muito usado para cadastro de clientes para separar por similaridade"
+"""
+Principal Component Analysis (PCA) is a machine learning technique used for dimensionality reduction, 
+simplifying complex datasets while preserving their most important information. 
+It transforms data into a new coordinate system where the main sources of variance are captured in a smaller number of components. 
+This helps in data preprocessing, feature extraction, and visualization, ultimately improving model performance and interpretability
+https://www.geeksforgeeks.org/principal-component-analysis-pca/
+"""
+
+## Aprendizado por reforço
+"Busca aprender algo que maximise a recompensa"
+" usados em jogos, mercado financeiro"
+"Estado -> agente -> realiza ação -> muda o ambiente -> recebe punição ou recompensa -> feedback em agente"
