@@ -692,6 +692,13 @@ entender relação entre vairável dependente Y e uma ou mais variáveis indepen
 prever clima por exemplo
 prever anomalia em transações bancárias
 prever preço de casas
+prever valores numéricos *contínuos*
+- tem as variáveis preditoras para achar a variável Alvo 
+(problema de mult target é o caso de ter mais de uma variável alvo)
+
+|-> CLASSIFICAÇÃO
+Busca um padrão nos dados. Também supervisionado.
+
 
 """
 
@@ -712,3 +719,129 @@ https://www.geeksforgeeks.org/principal-component-analysis-pca/
 "Busca aprender algo que maximise a recompensa"
 " usados em jogos, mercado financeiro"
 "Estado -> agente -> realiza ação -> muda o ambiente -> recebe punição ou recompensa -> feedback em agente"
+
+
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# TEM UMA IMAGEM AI SOBRE OS TIPOS DE DEPLOY
+
+
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# MLOPS
+
+"O parça que mexe com Machine Learning , DevOps , automatizar "
+"""
+Operacionalização do aprendizado de máquina. É o Desenvolvimento e Operações automatizando
+monitorando e gerenciando o ciclo de vida dos modelos de machine learning , de forma eficiente
+e escalável.
+
+- desenvolvimento e treinamento de modelos
+- integração contínua CI
+- deploy contínuo CD
+- monitoramento de gestão de modelos/ versionamento
+- gestão de dados
+- automação de pipeline 
+- governança e compliance
+- data drift e model drift 
+- colaboração e reprodutibilidade 
+"""
+
+"""
+Monitoramento e manutenção de modelos de Machine Learning são processos essenciais para garantir que os modelos permaneçam precisos e eficientes ao longo do tempo. O  monitoramento  envolve  a  observação  contínua  do  desempenho  do  modelo  em produção,  identificando possíveis desvios, quedas  de performance ou mudanças nos  dados de entrada  que  podem  afetar  a  precisão  das  previsões.  Ferramentas  de  monitoramento  avaliam métricas como acurácia, precisão, recall e F1-score, além de detectar anomalias e drifts de dados.A  manutenção  de  modelos  abrange  atividades  como  re-treinamento,  atualização  dos dados de treinamento e ajuste de hiperparâmetros. Esse processo é fundamental para adaptar o modelo  às  novas  condições  e  padrões  de  dados,  garantindo  que  ele  continue  relevantee confiável. A   manutenção   também   inclui   a   documentação   e   o   gerenciamento   de   versões, assegurando a rastreabilidade e a reprodutibilidade dos modelos. Monitoramento  e  manutenção  contínuos  são  tarefas  em  MLOps  e  essenciaispara  a longevidade  e  a  eficácia  dos  modelos  de  Machine  Learning  em  ambientes  dinâmicos  e  em constante mudança.Data Science Academy leonardo.tancredi@optdriven.com.br 67b3468bcef6d4f4aa07201a
+
+"""
+
+
+
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# escalonamento, normalização e log-transformação.
+
+
+"""
+Pesquisar.
+"""
+
+
+
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# REDES NEURAIS
+
+"""
+RNA, redes neurais artificiáis.
+Reprodução simplificada de um neuronio.
+
+CamadA inicial (entrada)
+CamadaS intermediárias ( hidden layers)
+CamadA de saída
+
+Precisa dos dados para definir a relação das variáveis de entrada e seus pesos para gerar a saída. 
+
+"""
+
+
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# TRANSFORMERS 
+
+" atençaõ é tudo que precisa"
+
+"""
+Ponderação de cada palavra ao mesmo tempo. Algo próximo a interpretar texto. Não é um processamento sequencial igual a RNN.
+Ele considera diferentes partes de uma sequencia de entrada simultanemaente , ponderando a importância de cada parte.
+
+Codificador (encoder) recebe a sequencia de entrada , gera uma representação interna dessa squencia , capturando as relações entre diferentes elementros da entrada
+
+Decodificador (decoder) utiliza a representação da entrada para gerar uma sequencia de saíuda como tradução ou resumo dessa entrada 
+
+BERT, GPT, T5 são exemplos
+
+"""
+
+
+" São aplicados em Vision Transformer para análise de imagens e também em TEmporal Fusion Transformer para séries temporais"
+
+
+
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# LLM
+# 
+# IA -> ML -> DL (deep learning) -> generative AI 
+
+# LLM fica entre DL e GAI 
+
+"""
+sistemas de linguagem baseados em DL
+bilhões e trilhões de parametros
+processar texto de forma não sequencial 
+
+"""
+
+
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# ============================================================================================================================================================================================================================================================================
+# RAG
+
+RAG = "Retrieval Augmented Generation" # recuperação de geração aumentada 
+
+"""
+Utiliza um LLM passando conhecimento e contexto específico para ele ficar bom na informação desejada. Usa texto e banco de dados.
+
+Para melhorar a contextualização das respostas podemos usar grafos . GraphRAG.
+Ajuda acessar os dados de forma estruturada. 
+
+"""
+
+## Antes de gerar resposta o modelo RAG consulta uma bse de dados externa ou índice de documentos para recuperar informações relevantes. Técnicas de busca como TFIDF, BM25 ou embeddings usando rede neural.
+## usa as informações como contexto , podendo integrar na resposta esses dados , sendo que pode não ter tido acesso a esses dados no pré treinamento 
+
